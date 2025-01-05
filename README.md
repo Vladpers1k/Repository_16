@@ -1,8 +1,9 @@
-# React + Vite
+**Логіка маршрутизації**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Маршрутизація реалізована за допомогою компонентів react-router.
 
-Currently, two official plugins are available:
+- Ініціалізація маршрутизації: Використовується компонент <BrowserRouter> для обгортки всієї програми, що дозволяє створювати маршрути
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Навігація: Для створення посилань між сторінками використано компонент NavLink, який змінює свій стиль залежно від активності
+
+- Визначення маршрутів: Компонент <Routes> містить визначення маршрутів через <Route>
